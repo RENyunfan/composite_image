@@ -1,0 +1,8 @@
+**.DS_Store
+**/build
+**/devel
+**/logs
+**/cmake-build-debug
+**/.idea
+**.bag
+**/.catkin_workspace
