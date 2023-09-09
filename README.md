@@ -10,23 +10,21 @@ pip install opencv-python
 # Example
 
 ## 1 VAR Mode (Recommend)
-
 ```bash
 python composite_image.py --video_path=./example_video.mp4 --start_t=0.0 --end_t=99.0 --skip_frame=2 --mode=VAR
 ```
-## 2 MIN Mode
 ![image-20230909002327059](./img/image-20230909002327059.png)
 
+## 2 MIN Mode
 ```bash
 python composite_image.py --video_path=./example_video.mp4 --start_t=0.0 --end_t=99.0 --skip_frame=2 --mode=MIN
 ```
-
 ![image-20230909002235029](./img/image-20230909002235029.png)
+
 ## 3 MAX Mode
 ```bash
 python composite_image.py --video_path=./example_video.mp4 --start_t=0.0 --end_t=99.0 --skip_frame=2 --mode=MAX
 ```
-
 ![image-20230909002149494](./img/image-20230909002149494.png)
 
 # Parameter
